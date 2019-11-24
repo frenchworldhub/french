@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding: 0;
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/static/images/tower4.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: inherit;
+}
+
+a{
+    font-size: 1.5rem;
+
+}
+h2{
+    padding-top: 2rem;
+    color:white;
+}
+h3{
+    margin-top:2rem ;
+    margin-bottom: 2rem;
+    color:white;
+    font-size: 110%;
+}
+.navbar{
+  background-color: transparent;
+}
+.nav-brand{
+  margin-left: 4%;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3rem;
+  color: #f5dd5d;
+}
+a:hover{
+    color: slategrey;
+    text-decoration: none;
+}
+#fixedheight td {
+    width: 25%;
+}
+
+#fixedheight td div {
+    height: 20px;
+    overflow: hidden;
+}
+h1{
+    margin-top:5rem ;
+    color:white;
+    margin-bottom: 2rem;
+
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+.td-color2{
+    color:white;
+
+}
+.td-color2{
+    font-family: 'Noto Serif', serif;
+    font-size: 150%;
+}
+.page-footer{
+    margin-top:2rem;
+}
+.table-content {
+    width: 100%;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}

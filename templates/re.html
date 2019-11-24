@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>-re ending verbs</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Merriweather|Zilla+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8839fad1e8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{%  static 'css/re.css'%}">
+
+</head>
+<body>
+	<header>
+		 <nav class="navbar navbar-expand-lg ">
+  <a class="nav-brand" href="/">French World</a>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home </a>
+      </li>
+    </ul>
+             </div>
+</nav>
+    <section class="content">
+    <div class="container">
+        <h2>Rules for -re ending verbs</h2>
+       <h3>- First person singular is represented by the personal subject pronoun je (I).</h3>
+
+        <h3>- Second person singular is represented by the personal subject pronoun tu (you).</h3>
+
+        <h3>- Third person singular is represented by the personal subject pronoun il (he), elle (she) or on (one).</h3>
+
+        <h3>- First person plural is represented by the personal subject pronoun nous (we).</h3>
+
+        <h3>- Second person plural is represented by the personal subject pronoun vous (formal you, you all).</h3>
+
+        <h3>- Third person plural is represented by the personal subject pronoun ils or elles (they).</h3>
+        <br>
+    <h2>Verbs Rules of conjugation using vendre verb(-to sell)</h2>
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th class="td-color2" scope="col">je</th>
+      <th class="td-color2" scope="col">tu</th>
+      <th class="td-color2" scope="col">il, elle, on</th>
+        <th class="td-color2" scope="col">nous</th>
+        <th class="td-color2" scope="col">vous</th>
+        <th class="td-color2" scope="col">ils, elles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="td-color2">- s</td>
+      <td class="td-color2">- s</td>
+      <td class="td-color2">- </td>
+        <td class="td-color2">- ons</td>
+        <td class="td-color2">- ez</td>
+        <td class="td-color2">- ent</td>
+    </tr>
+    <tr>
+      <td class="td-color2">vends</td>
+      <td class="td-color2">vends</td>
+      <td class="td-color2">vend</td>
+        <td class="td-color2">vendons</td>
+        <td class="td-color2">vendez</td>
+        <td class="td-color2">vendent</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+</section>
+
+		<div class="table-content">
+  <h1>Verb conjugation for -re ending verb</h1>
+
+    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+    <table id="fixedheight" class="table table-bordered table-striped mb-0">
+  {% for dest2 in debtre %}
+      <tr>
+        <td class="td-color2">{{ dest2.rename }}</td>
+        <td class="td-color2">{{ dest2.reengname }}</td>
+      </tr>
+  {% endfor %}
+  </table>
+    </div>
+    </div>
+	</header>
+  </body>
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-2 bg-info">© 2019 Copyright:
+    <a href="/"> frenchworld pvt ltd</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
